@@ -1,0 +1,9 @@
+proc cas;
+  session mysess;
+  loadactionset "textRuleScore";
+  
+  action textRukeScore.applyConcept;
+  param
+    docId="";
+ quit:
+ run;

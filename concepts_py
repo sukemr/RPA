@@ -1,0 +1,6 @@
+```python
+import swat as sw
+# Start CAS session
+sw.options.cas.print_messages = False
+s = sw.CAS('localhost', 5570, 'sas','pwd')
+```
